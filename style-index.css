@@ -1,0 +1,441 @@
+body {
+    background: linear-gradient(90deg, #7721D6, #AA436F, #C53998, #24144C);
+    background-size: 400% 400%;
+    animation: AnimationName 0s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 56%}
+    50%{background-position:100% 45%}
+    100%{background-position:0% 56%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 56%}
+    50%{background-position:100% 45%}
+    100%{background-position:0% 56%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 56%}
+    50%{background-position:100% 45%}
+    100%{background-position:0% 56%}
+}
+
+#hero{
+      margin: 1rem auto; 
+      height: 100vh;
+      /* height: 68vh; */
+}
+#myqualifications,#contactme, #myfooter{
+  margin-top: 5rem;
+}
+.mytitle p { 
+font-family: 'Roboto Condensed';
+font-style: normal;
+font-weight: 600;
+font-size: 64px;
+line-height: 75px;
+/* identical to box height */
+
+
+color: #EEF1FF;
+}
+.myintro p {
+    font-family: 'Roboto Condensed';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 33px;
+
+color: #EFEAD8;
+
+}
+.myinfo{
+  opacity: 0;
+    position: absolute;     
+top: 222px;
+}
+.mypic img{ 
+  /* opacity: 0; */
+    width: auto; 
+    height: auto;
+    /* margin-left: 6.84rem; */
+}
+.marqueebuttons{
+  display:flex;
+}
+.mybtn{
+    background: #ffffff !important;
+    border: 2px solid #FFFFFF !important;
+    border-radius: 50px !important;
+    width: 170px !important;
+    height: 55px !important;
+    margin-top:3rem !important;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+
+.mybtn.active {
+    background: #fff !important;
+    border: 2px solid #FFFFFF !important;
+    border-radius: 50px !important;
+    color: #24144C !important;
+}
+
+.mybtn.active:hover{
+  background: #4581F7;
+    border: 2px solid #FFFFFF;
+    border-radius: 50px;
+    color: #FFFFFF;
+}
+.mybtn:hover{
+    background-color: transparent!important;
+    border: 2px solid #FFFFFF;
+    border-radius: 50px;
+    color: #fff !important;
+}
+
+.mx-4 {
+    margin-right: 1.5rem!important;
+    margin-left: 1.5rem!important;
+    color: #fff;
+    background-color: transparent!important;
+}
+
+.mybtn.mx-4:hover{
+    background: #fff !important;
+    color: #24144C !important;
+}
+
+.mybtn.mx-4:hover > .tooltip-get-cv {
+  visibility: visible;
+}
+
+.myWcontainer{
+   background: #FFFFFF;
+   width:100%;
+   height: auto;
+   box-shadow: 25px 25px 50px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  margin-top:1.2rem;
+}
+.container-title p{ 
+  text-align: center;
+}
+p.myWcontainertag{
+font-family: 'Roboto Condensed';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 41px;  
+color: #7A28BB;
+margin-bottom: 0rem;
+}
+p.myWcontainertext{
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 75px;  
+  color: #7A28BB;
+}
+
+p.myWcontainertag-white{
+  font-family: 'Roboto Condensed';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 41px;  
+color: #FFFFFF;
+margin-bottom: 0rem;
+}
+
+p.myWcontainertag-contact-white {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 41px;
+    color: #FFFFFF;
+    margin-bottom: 0rem;
+    text-align: left;
+}
+
+p.myWcontainertext-white{
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 75px;  
+  color: #FFFFFF;
+  text-shadow: 0px 8px 4px rgba(0, 0, 0, 0.25);
+}
+
+p.myWcontainertag-contact-description-white {
+    font-family: inherit;
+    font-style: normal;
+    /* font-weight: 600; */
+    font-size: 20px;
+    /* line-height: 75px; */
+    color: #FFFFFF;
+    /* text-shadow: 0px 8px 4px rgba(0, 0, 0, 0.25); */
+    text-align: left;
+}
+
+.time-line{
+  border-left:white 2px solid;
+}
+
+p.mycpright{
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-size: 13px;
+  line-height: 23px; 
+  color: #FFFFFF;
+  text-align: left;
+}
+
+
+p.qlf-position{
+  font-family: 'Roboto Condensed';
+  font-style: normal; 
+  font-size: 30px; 
+  color: #000;
+  
+}
+
+p.qlf-year{
+  font-family: 'Roboto Condensed';
+  font-style: normal; 
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 75px;   
+  color: #fff;
+}
+.qlf-left-card {
+  text-align: right;
+}
+
+.myWcontainer-t{
+  background: #FFFFFF;
+   
+  height: auto;
+  box-shadow: 25px 25px 50px rgba(0, 0, 0, 0.25);
+ border-radius: 0px;
+}
+.myWcontainer-c{
+  background: #f2f2f2;
+  height: auto
+  ;
+  box-shadow: 25px 25px 50px rgba(0, 0, 0, 0.25);
+ border-radius: 50px;
+}
+.mytestimonial-image img{
+  height:100px;
+  width: 100px;
+  border-radius: 50%;
+}
+p.testmonial-text{
+  font-family: 'Roboto Condensed';
+  font-style: normal;  
+  font-size: 18px; 
+  color: #000;
+}
+
+hr.hr-footer{
+  border: 1px solid #FFFFFF;
+}
+.social-icons:hover{
+        transform: translateY(-0.84rem);
+        transition: transform 250ms;
+}
+p.sskills-title{
+  font-family: 'Roboto Condensed'; 
+  font-size: 25px; 
+  color: #7A28BB;
+  
+  
+  font-weight: 600;
+}
+.card{
+  border:unset;
+}
+.skillsused svg,.skillsused img{
+  height:35px;
+  width: 35px;
+}
+i.skills-icon{
+ font-size: 65px;
+ color:#7A28BB;
+}
+
+.col-lg-6.col-md-6.px-5.py-4 .card:hover {
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25);
+}
+ 
+.social-link {
+    text-decoration: none;
+    list-style-type: none;
+    color: #ffffff;
+}
+.social-link:hover{
+    color: bisque;
+}
+ 
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+  }
+  
+  /* Tooltip text for LinkedIn */
+  .tooltip-linkedin {
+    visibility: hidden;
+    width: 440px;
+    background-color: #1b1b1b;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    margin-top: -20px;
+    position: absolute;
+    z-index: 1;
+    font-size: 12px;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .social-link:hover .tooltip-linkedin {
+    visibility: visible;
+}
+
+  /* Tooltip text for Email */
+  .tooltip-email {
+    visibility: hidden;
+    width: 277px;
+    background-color: #1b1b1b;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    margin-top: -20px;
+    position: absolute;
+    z-index: 1;
+    font-size: 12px;
+  }
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .social-link:hover .tooltip-email {
+    visibility: visible;
+}
+
+.tooltip-get-cv {
+  visibility: hidden;
+  width: 390px;
+  background-color: #1b1b1b;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  margin-top: -29px;
+  position: absolute;
+  z-index: 1;
+  font-size: 12px;
+  margin-left: -6px;
+}
+
+/* ----------------- */
+/* .myinfo{
+  opacity: 0;
+} */
+.myinfo.isactive{
+  opacity: 1;
+  animation: fadeInLeft 900ms ease-in-out;
+}
+.mypic.isactive{
+  opacity: 1;
+  animation: fadeInRight 900ms ease-in-out;
+}
+
+.qlf-left-card-container{
+  opacity: 0;
+}
+.qlf-left-card-container.isactive{
+  opacity: 1;
+  animation: fadeInLeft 900ms ease-in-out;
+}
+
+.qlf-right-card-container{
+  opacity: 0;
+}
+.qlf-right-card-container.isactive{
+  opacity: 1;
+  animation: fadeInRight 900ms ease-in-out;
+}
+
+.myskills-container {
+  opacity: 0;
+}
+.myskills-container.isactive {
+  opacity: 1;
+}
+.myWcontainer.isactive {
+  animation: fadeInUp 900ms ease-in-out;
+}
+
+/* Icon for Technology Stack */
+.ms-access-icon {
+    width: 45px !important;
+}
+
+/* ANIMATIONS */
+
+@keyframes fadeInLeft {
+  0% {
+      opacity: 0;
+      transform: translateX(-2.16rem);
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+@keyframes fadeInRight {
+  0% {
+      opacity: 0;
+      transform: translateX(2.16rem);
+  }
+  100% {
+      opacity: 1;
+  }
+}
+@keyframes fadeInUp {
+  0% {
+      opacity: 0;
+      transform: translateY(2.84rem);
+       
+  }
+  100% {
+      opacity: 1;
+      
+  }
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
+@keyframes slide-to-right {
+  0% { transform: translateX(2.16rem); }
+  100% {transform: translateX(0rem);; }
+}
+
+@keyframes slide-to-left {
+  0% { transform: translateX(-2.16rem); }
+  100% {transform: translateX(0rem);; }
+}
+
+@keyframes slide-to-up {
+  0% { transform: translateY(2.84rem); }
+  100% {transform: translateY(-0.16rem); }
+}
